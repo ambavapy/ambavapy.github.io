@@ -729,6 +729,37 @@ section {
   right: 15px;
 }
 
+.projects {
+  background-color: #f9c74f;
+  padding: 50px;
+  text-align: center;
+}
+
+.project {
+  background-color: #f3722c;
+  color: #fff;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.project h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.project p {
+  font-size: 16px;
+  margin: 10px 0 0;
+}
+
+.project:hover {
+  background-color: #da291c;
+  cursor: pointer;
+}
+
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
